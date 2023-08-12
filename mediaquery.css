@@ -15,7 +15,7 @@
 /*************************************************/
 
 /* Media query for screens with a maximum width of 768px (typical mobile screens) */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 276px) {
     body {
         width: 276px;
       margin: 0;
@@ -185,7 +185,7 @@
 
 
   /* Media query for screens with a maximum width of 768px (typical mobile screens) */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 276px) {
     /* ... (previous styles) */
   
     /* Hide about section image for mobile */
