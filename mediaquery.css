@@ -12,3 +12,190 @@
     }
 }
 
+/*************************************************/
+
+/* Media query for screens with a maximum width of 768px (typical mobile screens) */
+@media only screen and (max-width: 768px) {
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  
+    /* Adjust the font size for better readability on mobile */
+    body, p, .btn {
+      font-size: 14px;
+    }
+  
+    /* Mobile-specific adjustments for navigation */
+    nav {
+      justify-content: space-between;
+      padding: 10px;
+    }
+  
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: 12vh;
+      right: 0;
+      background-color: white;
+      width: 100%;
+      transition: all 0.3s ease-in-out;
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .nav-links li {
+      margin: 10px 0;
+    }
+  
+    .hamburger-icon {
+      flex-direction: column;
+      justify-content: space-between;
+      height: 24px;
+      width: 30px;
+    }
+  
+    /* Mobile adjustments for profile section */
+    #profile {
+      margin-top: 0;
+      height: auto;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+  
+    .section_pic-container {
+      width: 100%;
+      margin: 0;
+    }
+  
+    .section_text {
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .section_text_p1 {
+      animation: none;
+    }
+  
+    .title {
+      font-size: 24px;
+    }
+  
+    /* Mobile adjustments for other sections */
+    section {
+      margin: 0 1rem;
+      padding: 2rem 0;
+    }
+  
+    .section-container {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    .text-container {
+        flex: 1;
+        margin-left: 94px;
+    }
+    .about-details-container {
+      margin: 0;
+    }
+  
+    .about-pic {
+      margin: 0;
+    }
+  
+    .about-containers,
+    .details-container {
+      margin: 5px;
+      width: 100%;
+    }
+  
+    .experience-details-container,
+    .details-containerr {
+      
+      padding: 1rem;
+    }
+  
+    .experience-details-container {
+        margin-right: -95px;
+        margin-left: -45px;
+        width: 137px;
+        text-align: center;
+    }
+  
+    .experience-sub-title {
+      font-size: 18px;
+      margin: 1rem 0;
+    }
+  
+    .article-container {
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+    }
+  
+    .project-title {
+      font-size: 10px;
+    }
+  
+    .project-img {
+        width: 100px;
+        height: auto;
+    }
+  
+    .details-containerr {
+        margin-left: 165px;
+        padding: 10px;
+        border: rgb(201, 169, 169) solid;
+        border-radius: 1rem;
+        text-align: center;
+        height: 7rem;
+        width: 5rem;
+        margin-top: -17px;
+    }
+    .project-btn {
+        font-size: 11px;
+        width: 82px;
+        height: 25px;
+        color: black;
+        border-color: rgb(163, 163, 163);
+    }
+  
+    .contact-info-upper-container {
+      margin-left: 0;
+    }
+  
+    footer {
+      margin-left: 0;
+      padding: 1rem 0;
+    }
+  
+    footer p {
+      font-size: 12px;
+    }
+  }
+  
+
+
+  /* Media query for screens with a maximum width of 768px (typical mobile screens) */
+@media only screen and (max-width: 768px) {
+    /* ... (previous styles) */
+  
+    /* Hide about section image for mobile */
+    .about-pic {
+      display: none;
+    }
+  
+    /* Make project icons smaller */
+    .project-img {
+      width: 60%;
+      height: auto;
+    }
+  }
+  
